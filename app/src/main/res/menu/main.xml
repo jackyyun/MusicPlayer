@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--<item-->
+        <!--android:id="@+id/action_contact"-->
+        <!--android:icon="@drawable/ic_action_user"-->
+        <!--android:showAsAction="ifRoom"-->
+        <!--android:title="@string/action_contact"/>-->
+    <item
+        android:title="我喜欢的音乐"
+        android:id="@+id/I_like"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/near_play_music"
+        android:title="最近播放的音乐"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/exit"
+        android:title="退出程序"
+        android:showAsAction="ifRoom"
+        />
+</menu>
